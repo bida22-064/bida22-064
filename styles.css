@@ -1,0 +1,286 @@
+/* Reset and general styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #050505;
+}
+
+.container {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: rgb(241, 255, 241);
+  font-size: 50px;
+  text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  margin: 20;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #aca9a9;
+  background-color: #010101;
+}
+
+nav a:hover {
+  background-color: #f2f2f2;
+}
+
+/* Header styles */
+div.header {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 160px;
+}
+
+div.header:hover {
+  border: 1px solid #777;
+}
+
+div.header img {
+  width: 100%;
+  height: auto;
+}
+.div-container{
+  height: 200;
+  width: auto;
+}
+
+.grid{
+  width: 500;
+  height: 600;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Slider styles */
+.slider {
+  width: 1520px;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slider img.active {
+  opacity: 1;
+}
+
+/* Image styles */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Main content styles */
+section {
+  margin-bottom: 20px;
+}
+
+section h3 {
+  color: #c8baba;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+section p {
+  color: #555;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Gallery styles */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery-item .desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .desc {
+  opacity: 1;
+}
+
+
+/* Reset styles for list and anchor elements */
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* General styles for the gallery */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Styles for the "MOVIES NIGHT FAVOURITES" section */
+.FAVOURITES {
+  margin-top: 40px;
+}
+
+h7 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.slider {
+  width: 100%;
+  height: px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slider img.active {
+  opacity: 1;
+}
+footer {
+  background-color: #989292;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  max-width: 70px;
+  height: auto;
+}
+
+.footer-links ul,
+.footer-social ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links ul li,
+.footer-social ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-links ul li a,
+.footer-social ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 10px;
+}
+.footer-social{
+  align-items: center;
+  
+
+}

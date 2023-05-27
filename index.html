@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>WARNOR BROS</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="movies.html">Movies</a> </li>
+      <li><a href="Games.html">Games</a></li>
+      <li><a href="Collection.html">Collection</a></li>
+      <li><a href="Feedback.html">Feedback</a></li>
+    </ul>
+  </nav>
+
+  <div class="slider">
+    <img src="kids comedies.jpg" alt="Image 1">
+    <img src="Drama.jpg" alt="Image 2">
+    <img src="top tv pics.jpg" alt="Image 3">
+  </div>
+
+  <script>
+    var images = document.querySelectorAll('.slider img');
+var currentImage = 0;
+
+function showImage(n) {
+  images[currentImage].className = '';
+  currentImage = (n + images.length) % images.length;
+  images[currentImage].className = 'active';
+}
+
+function nextImage() {
+  showImage(currentImage + 1);
+}
+
+function previousImage() {
+  showImage(currentImage - 1);
+}
+
+setInterval(nextImage, 3000); // Change image every 3 seconds
+
+showImage(0); // Show the first image initially
+
+  </script>
+  <section class="header">
+    <div class="text box">
+      <h1>Welcome to WarnerBros Original Movie Streaming Service</h1>
+      <p>Warner Bros is your go-to source of popular local entertainment,<br>Including the world's greatest movies and TV shows</p>
+      <a href="https://www.warnerbros.com/" class="hero-btn">Visit us to view more</a>
+    </div>
+
+  </section>
+  <!--------- MOVIES ------->
+
+
+  <!--------RELEASES------->
+
+  <section class="NEW RELEASES TO OWN">
+    <h4>NEW RELEASES TO OWN</h4>
+    <p>OWN NOW OR WATCH IN THEATERS</p>
+
+    <div class="container">
+      <section>
+        <a href="https://www.warnerbros.com/"> <h2>Visit Us for More</h2></a>
+       
+        <div class="grid">
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="godzilla_vs_kong_white_font_2000x3000.jpg">
+                <img src="godzilla_vs_kong_white_font_2000x3000.jpg" alt="godzilla" width="400" height="400">
+              </a>
+              <div class="desc">GODZILLA VS. KONG</div>
+            </div>
+          </div>
+    
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="dune_2000x3000.png">
+                <img src="dune_2000x3000.png" alt="dune" width="400" height="400">
+              </a>
+              <div class="desc">DUNE</div>
+            </div>
+          </div>
+    
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="wrath_of_man_2000x3000.jpg">
+                <img src="wrath_of_man_2000x3000.jpg" alt="Wrath" width="400" height="400">
+              </a>
+              <div class="desc">WRATH OF MAN</div>
+            </div>
+          </div>
+    
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="mortal_kombat_2021_2000x3000.jpg">
+                <img src="mortal_kombat_2021_2000x3000.jpg" alt="Mortal" width="400" height="400">
+              </a>
+              <div class="desc">MORTAL KOMBAT (2021)</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="FAVOURITES">
+        <h7>MOVIES NIGHT FAVOURITES</h7>
+        <p></p>
+        <div class="grid">
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="img_5terre.jpg">
+                <img src="conjuring_keyart.jpg" alt="Cinque Terre" width="600" height="400">
+              </a>
+              <div class="desc">THE CONJURING</div>
+            </div>
+          </div>
+    
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="batman v superman">
+                <img src="black_lightning_s4_2000x3000.png" alt="batman vs superman" width="600" height="400">
+              </a>
+              <div class="desc">Black lightning</div>
+            </div>
+          </div>
+    
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="img_lights.jpg">
+                <img src="batman.jpg" alt="dark knight" width="600" height="400">
+              </a>
+              <div class="desc">THE DARK KNIGHT RISES</div>
+            </div>
+          </div>
+    
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="black adam">
+                <img src="blkadm_keyart_0.jpg" alt="black adam" width="600" height="400">
+              </a>
+              <div class="desc">BLACK ADAM</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    
+    <section class="FAVOURITES">
+      <h7>MOVIES NIGHT FAVOURITES</h7>
+      <p></p>
+      <div class="grid">
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+              <img src="Maleficent.jpg" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">Maleficent</div>
+          </div>
+        </div>
+  
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="batman v superman">
+              <img src="Monster.jpg" alt="batman vs superman" width="600" height="400">
+            </a>
+            <div class="desc">Monster</div>
+          </div>
+        </div>
+  
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_lights.jpg">
+              <img src="up.jpg" alt="dark knight" width="600" height="400">
+            </a>
+            <div class="desc">Up</div>
+          </div>
+        </div>
+  
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="black adam">
+              <img src="creed.jpg" alt="black adam" width="600" height="400">
+            </a>
+            <div class="desc">Creed</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="logo2.png" alt="Logo">
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a href="Collection.html">Collection</a></li>
+          <li><a href="Feedback.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <ul>
+          <li><a href="https://web.facebook.com/WarnerBrosPictures/?__tn__=%3C"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/warnerbros?lang=en"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://l.instagram.com/?u=https%3A%2F%2Finstagram.warnerbros.co.uk%2F&e=AT3DHdD7KcuqCP4ceixKANp1hnqI7BycWgoANezGe0rVXRW71Dde3bRJ0eIUBbstzcF2ZPxGTGTmc4W5L1aZapPGJP08g2BpkL3VNCU"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/warner-bros--entertainment"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

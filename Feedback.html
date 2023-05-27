@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+
+</head>
+
+
+<nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="movies.html">Movies</a> </li>
+      <li><a href="Games.html">Games</a></li>
+      <li><a href="Collection.html">Collection</a></li>
+      <li><a href="Feedback.html">Feedback</a></li>
+     
+    </ul>
+  </nav>
+<body>
+   
+
+    <div class="container">
+        <form>
+            <h1>Contact Us form</h1>
+            <input type="text" id="firstname" placeholder="First Name"required>
+            <input type="text" id="lastname" placeholder="Last Name"required>
+            <input type="email" id="email" placeholder="Email"required>
+            <input type="text" id="mobile" placeholder="Mobile"required>
+<h4>Type your Message here</h4>
+<textarea required></textarea> 
+<input type="submit" value="Send" id="button">
+        </form>
+    </div>
+
+    
+    <style>
+    .container{
+        top: 10%;
+        left: 30%;
+       position: fixed;
+        bottom: 50;
+        height: 400px;
+        background: black;
+        display: flex;
+         
+        }
+      
+     .container form{
+        width: 670px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        box-shadow:20px 20px 50px rgba(201, 197, 197, 0) ;
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter:blur(10px) ;
+        flex-wrap:wrap;
+     }   
+     .container form h1{
+        color: rgb(227, 222, 222);
+        font-weight: 500;
+        margin-top: 20px;
+        width: 500px;
+        text-align: center;
+     }
+     .container form input{
+        width:290;
+        height: 40px;
+        padding-left: 10px;
+        outline: none;
+        border: none;
+        font-size: 15px;
+        margin-bottom: 10px;
+        background: none;
+        border-bottom:2px solid white ;
+     }
+     .container form input ::placeholder{
+        color: #ddd;
+     }
+     .container form #lastName,
+     .containerform #mobile{
+        margin-left: 20px;
+     }
+     .container form h4{
+        color: #fff;
+        font-weight: 300;
+        width: 600px;
+        margin-top: 20px;
+     }
+     .container form textarea{
+        background: none;
+        border: none;
+        border-bottom: 2px solid #fff;
+        font-weight: 200;
+        font-size: 15px;
+        padding: 10px;
+        outline: none;
+        min-width: 600px;
+        max-width: 600px;
+        min-height: 80px;
+        max-height: 80px;
+     }
+
+     textarea::-webkit-scrollbar{
+        width: 1rem;
+     }
+
+     textarea::-webkit-textfield-scrollbar-thumb{
+        background-color: rgba(226, 218, 218, 0.713);
+     }
+     
+     .container form #button{
+        border: none;
+        background: #fff;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #dfd3d3;
+        padding: 0;
+        margin-right: 500px;
+        margin-bottom: 30px;
+        transition: 0.3s;
+     }
+     .container form #button:hover{
+        opacity: 0.7;
+     }
+     
+
+
+    </style>
+ <footer>
+  <div class="footer-content">
+    <div class="footer-logo">
+      <img src="logo2.png" alt="Logo">
+    </div>
+    <div class="footer-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2023 Your Company. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+
+
+
+   <style>  
+  
+   footer{
+   background-color: #464343; 
+   width: 1350px;
+   position: absolute;
+   bottom: 0;
+   top: 500px;
+   }
+
+   .footerContainer{
+    width: 100%;
+    padding:70px 30px 20px;
+    height: 50;
+    background-color: #575555;
+    position:relative;
+  }
+  .socialIcons{
+    display: flex;
+    justify-content: center;
+
+  }
+  .socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+  }
+
+.socialIcons a i{
+  font-size: 2em;
+  color: #e9e1e1;
+  opacity: 0.9;
+}
+
+/*Hover Effects on Social Media Icons*/
+.socialIcons a:hover{
+  background-color: #111;
+  transition: 0.5s;
+
+}
+
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+ .footerContainer{
+   width: 100%;
+   padding:70px 30px 20px;
+   height: 50;
+ }
+ </style>
+
+
+
+</body>
+
+</html>
